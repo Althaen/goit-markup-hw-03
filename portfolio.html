@@ -8,30 +8,36 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header>
-      <!--Логотип-->
-      <a href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
-      <!--Навигация по сайту-->
-      <nav>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a class="active" href="#">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+      <div class="container header">
+        <!--Логотип-->
+        <a href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
+        <!--Навигация по сайту-->
+        <nav>
+          <ul>
+            <li><a href="./index.html">Студия</a></li>
+            <li><a class="active" href="#">Портфолио</a></li>
+            <li><a href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <!--Контактные данные-->
+        <ul class="contacts">
+          <li><a href="mailto:info@example.com">info@example.com</a></li>
+          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
-      </nav>
-      <!--Контактные данные-->
-      <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <main>
-      <section>
+      <section class="container porfolio-section">
         <h2>Проекты</h2>
         <!--Фильтры-->
         <ul class="filters">
@@ -114,20 +120,22 @@
     </main>
 
     <footer>
-      <!--Логотип-->
-      <a href="" class="logo">
-        <span class="logo-accent">Web</span>
-        <span class="logo-footer">Studio</span>
-      </a>
-      <!--Адрес-->
-      <address>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <!--Контактные данные-->
-        <ul>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <!--Логотип-->
+        <a href="" class="logo">
+          <span class="logo-accent">Web</span>
+          <span class="logo-footer">Studio</span>
+        </a>
+        <!--Адрес-->
+        <address>
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <!--Контактные данные-->
+          <ul>
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
